@@ -1,5 +1,5 @@
 {% set name = "lineax" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lineax-{{ version }}.tar.gz
-  sha256: 5f1a8f060142af2cdbf7d66b99e8d3071c3aa734b677df6339df4b4c4c0554d2
+  sha256: 187b8ea93b8e1099fb792e81c6e71a9c269f4fcadbb5313fe312d5847f581f9d
 
 build:
   noarch: python
